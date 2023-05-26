@@ -10,7 +10,7 @@ export default function Home() {
 
       <Card className="max-w-4xl mx-auto">
         <Text className="text-4xl font-bold text-center md-10">
-          NexsWeather AI
+          NexWeather AI
         </Text>
         <Subtitle className="text-xl text-center">
           Powered by OpenAI, Next.js 13.3, Tailwind CSS, Tremor 2.0 Plus More Awesomeness
