@@ -1,4 +1,5 @@
 "use client"
+import CityPicker from "@/components/CityPicker";
 import { Card, Divider, Subtitle, Text } from "@tremor/react";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         </Subtitle>
         <Divider className="my-10" />
         <Card className="bg-gradient-to-br from-[#FDB813] to-[#e48e2b]">
-          {/*CityPicker*/}
+          <CityPicker />
         </Card>
       </Card>
       
