@@ -5,7 +5,7 @@ import { Card, Divider, Subtitle, Text } from "@tremor/react";
 export default function Home() {
   return (
     
-    <div className="min-h-screen bg-gradient-to-br from-[#1378fd] to-[#3b63e6] p-10 flex flex-col justify-center">
+    <div className="min-h-screen bg-gradient-to-br from-[#1378fd] to-[#1a44ce] p-10 flex flex-col justify-center">
         
         {/*Building the Hero section*/}
 
@@ -18,6 +18,7 @@ export default function Home() {
         </Subtitle>
         <Divider className="my-10" />
         <Card className="bg-gradient-to-br from-[#FDB813] to-[#e48e2b]">
+          {/**Citypicker component */}
           <CityPicker />
         </Card>
       </Card>
